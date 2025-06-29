@@ -269,7 +269,7 @@ export default function Products({ cartItems, setCartItems, isLogin }) {
         open={filtersOpen}
         onClose={() => setFiltersOpen(false)}
       >
-        <Box sx={{ width: 300 }}>
+        <Box sx={{ width: 400 }}>
           <FilterSidebar
             priceRange={priceRange}
             onPriceChange={setPriceRange}
